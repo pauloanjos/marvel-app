@@ -1,0 +1,31 @@
+.form {
+    background: white;
+    padding: 15px 25px;
+    color: black;
+
+    h1, p {
+        text-align: center;
+        display: block;
+        margin: 10px;
+    }
+
+    &__group {
+        margin: 10px 0px;
+        label {
+            display: block;
+            color: rgb(243, 239, 239);
+            text-align: initial;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: #ddd 1px solid;
+            border-radius: 5px;
+        }
+        
+    }
+    &__button {
+        width: 100%;
+    }
+}
